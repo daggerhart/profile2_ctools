@@ -1,0 +1,7 @@
+name = Profile2 Ctools
+description = Ctools plugins for Profile2 stuff
+version = 7.x-0.1
+core = 7.x
+package = EPI
+dependencies[] = ctools
+dependencies[] = profile2
