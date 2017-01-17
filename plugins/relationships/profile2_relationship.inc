@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Plugin to provide an relationship handler for book parent.
+ * Plugin to provide an relationship handler for profile entities.
  */
 
 /**
@@ -52,8 +52,8 @@ function profile2_ctools_relationship_context_edit_form($form, &$form_state) {
 
   $form['profile_type'] = array(
     '#type' => 'select',
-    '#title' => t('Teacher profile type'),
-    '#description' => t('Select the teacher profile type for this context.'),
+    '#title' => t('Profile2 type'),
+    '#description' => t('Select the profile2 type for this context.'),
     '#default_value' => $conf['profile_type'],
     '#prefix' => '<div class="clear-block no-float">',
     '#suffix' => '</div>',

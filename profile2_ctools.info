@@ -1,7 +1,7 @@
 name = Profile2 Ctools
-description = Ctools plugins for Profile2 stuff
+description = Adds a ctools relationship to Profile2 entities.
 version = 7.x-0.1
 core = 7.x
-package = EPI
+package = Other
 dependencies[] = ctools
 dependencies[] = profile2
